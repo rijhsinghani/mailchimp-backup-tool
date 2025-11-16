@@ -1,8 +1,8 @@
 # Mailchimp Backup Tool - .gitignore
 
-# Backup files - DO NOT commit actual Mailchimp data to GitHub
-mailchimp_backups/
-*.zip
+# Note: Backup files ARE committed to this PRIVATE repository
+# mailchimp_backups/ - ALLOWED (contains actual backup data)
+# *.zip - ALLOWED (contains actual backup data)
 
 # Python
 __pycache__/

@@ -100,6 +100,7 @@ class MailchimpBackup:
             return {"error": response.text}
 
         export_info = response.json()
+        print(f"DEBUG - Full API response: {json.dumps(export_info, indent=2)}")
         export_id = export_info.get('id')
 
         print(f"✅ Export created successfully (ID: {export_id})")
